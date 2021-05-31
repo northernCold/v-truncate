@@ -1,4 +1,4 @@
-# vue-truncate-text
+# v-truncate
 
 ## Project setup
 ```

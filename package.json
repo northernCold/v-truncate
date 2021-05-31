@@ -1,27 +1,43 @@
 {
-  "name": "vue-truncate-text",
-  "version": "0.1.0",
-  "private": true,
+  "name": "v-truncate",
+  "version": "0.1.3",
+  "private": false,
+  "main": "./dist/v-truncate.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "dev": "cross-env NODE_ENV=development webpack serve --progress --config examples/webpack.config.js",
+    "build": "webpack --config webpack.config.js"
   },
   "dependencies": {
+    "@vue/babel-helper-vue-jsx-merge-props": "^1.2.1",
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-plugin-transform-vue-jsx": "^3.7.0",
+    "babel-runtime": "^6.26.0",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "vue": "^2.6.11",
+    "vue-prismjs": "^1.2.0",
+    "vue-router": "^3.2.0"
   },
   "devDependencies": {
+    "@babel/runtime": "^7.14.0",
+    "@vue/babel-preset-jsx": "^1.2.4",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.11",
     "@vue/eslint-config-airbnb": "^5.0.2",
     "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-vue": "^6.2.2",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "vue-template-compiler": "^2.6.11"
-  }
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^5.37.1",
+    "webpack-cli": "^4.7.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "_id": "v-truncate@0.1.0",
+  "readme": "ERROR: No README data found!"
 }
