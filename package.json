@@ -3,6 +3,17 @@
   "version": "0.2.1",
   "private": false,
   "main": "./dist/v-truncate.js",
+  "keywords": [
+    "v-truncate",
+    "truncate",
+    "vue",
+    "ellipsis",
+    "component"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/northernCold/v-truncate.git"
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development webpack serve --progress --config examples/webpack.config.js",
     "build": "webpack --config webpack.config.js"
